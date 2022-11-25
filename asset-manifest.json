@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Zaxar-Lenin/FullApp-Itransition_Front/static/css/main.cc013ce2.css",
+    "main.js": "/Zaxar-Lenin/FullApp-Itransition_Front/static/js/main.0a215a18.js",
+    "index.html": "/Zaxar-Lenin/FullApp-Itransition_Front/index.html",
+    "main.cc013ce2.css.map": "/Zaxar-Lenin/FullApp-Itransition_Front/static/css/main.cc013ce2.css.map",
+    "main.0a215a18.js.map": "/Zaxar-Lenin/FullApp-Itransition_Front/static/js/main.0a215a18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc013ce2.css",
+    "static/js/main.0a215a18.js"
+  ]
+}
