@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Zaxar-Lenin/FullApp-frontEnd/static/css/main.cc013ce2.css",
-    "main.js": "/Zaxar-Lenin/FullApp-frontEnd/static/js/main.d44d5c73.js",
-    "index.html": "/Zaxar-Lenin/FullApp-frontEnd/index.html",
-    "main.cc013ce2.css.map": "/Zaxar-Lenin/FullApp-frontEnd/static/css/main.cc013ce2.css.map",
-    "main.d44d5c73.js.map": "/Zaxar-Lenin/FullApp-frontEnd/static/js/main.d44d5c73.js.map"
+    "main.css": "/FullApp-frontEnd/static/css/main.cc013ce2.css",
+    "main.js": "/FullApp-frontEnd/static/js/main.d44d5c73.js",
+    "index.html": "/FullApp-frontEnd/index.html",
+    "main.cc013ce2.css.map": "/FullApp-frontEnd/static/css/main.cc013ce2.css.map",
+    "main.d44d5c73.js.map": "/FullApp-frontEnd/static/js/main.d44d5c73.js.map"
   },
   "entrypoints": [
     "static/css/main.cc013ce2.css",
