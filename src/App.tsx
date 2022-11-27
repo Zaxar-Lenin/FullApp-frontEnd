@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import './App.css';
-import {Route, Routes, useNavigate} from "react-router-dom";
+import {Navigate, Route, Routes, useNavigate} from "react-router-dom";
 import {Routers} from "routers/Routers";
 import Header from "components/header/Header";
 import Login from "components/login/Login";
@@ -33,6 +33,7 @@ function App() {
         <div className="App">
             <Header/>
             <Routes>
+                <Route path={'/'} element ={<Navigate to = {Routers.Login} />}/>
                 <Route path={Routers.Login} element={<Login/>}/>
                 <Route path={Routers.Registration} element={<Registration/>}/>
                 <Route path={Routers.Users} element={<Users/>}/>
