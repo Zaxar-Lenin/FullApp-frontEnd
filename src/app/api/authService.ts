@@ -27,12 +27,12 @@ export const AuthService = {
         },)
     },
     users: () => {
-        return instance.get<UsersResponse>(`/api/auth${Routers.GetUsers}`)
+        return instance.get<UsersResponse>(`/api/auth${Routers.Users}`)
     },
     updateUser: (params: RequestUpdateUser) => {
-        return instance.put<MessageUsersResponse>(`/api/auth${Routers.GetUsers}`, params)
+        return instance.put<MessageUsersResponse>(`/api/auth${Routers.Users}`, params)
     },
     removeUser: ({listId}: RequestRemoveUser) => {
-        return instance.delete<MessageUsersResponse>(`/api/auth${Routers.GetUsers}/${listId}`)
+        return instance.delete<MessageUsersResponse>(`/api/auth${Routers.Users}/${listId}`)
     },
 }
