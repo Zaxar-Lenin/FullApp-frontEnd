@@ -33,7 +33,7 @@ function App() {
         <div className="App">
             <Header/>
             <Routes>
-                <Route path={'/FullApp-frontEnd'} element ={<Navigate to = {Routers.Login} />}/>
+                <Route path={'/'} element ={<Navigate to = {Routers.Login} />}/>
                 <Route path={Routers.Login} element={<Login/>}/>
                 <Route path={Routers.Registration} element={<Registration/>}/>
                 <Route path={Routers.Users} element={<Users/>}/>
